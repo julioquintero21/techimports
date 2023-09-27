@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Imports</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a href="index.html"><img src="imagens/loginho-removebg-preview.png" alt=""><strong> </strong></a>
+          <div class="menu">
+            <p> <a href="index.html"><strong>HOME</strong></a></p>
+            <p> <a href="#"><strong>PRODUTOS</strong></a></p>
+            <p> <a href="#"><strong>CONTATO</strong></a></p>
+          </div>
+          <form class="d-flex" role="search">
+            
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn-btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="trinta">
+        <div class="sim">
+    <div>
+        
+        <hr>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagens/SAMSUNG/galaxi s23.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Galaxy S23 Ultra</h5>
+                            <p class="card-text">
+                                <span id="valorDolar">995</span> US$
+                                <span id="valorReal"></span> R$
+                            </p>
+                            <a href="" class="btn btn-primary">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="order-form">
+                        <h2>Calcule o Frete</h2>
+                        <div><input type="text" id="Cep0" placeholder="CEP"></div>
+                        
+                        <div><input type="text" id="Rua" placeholder="Rua" readonly></div>
+                        
+                        <div><input type="text" id="Bairro" placeholder="Bairro" readonly></div>
+                        
+                        <div><input type="text" id="Cidade" placeholder="Cidade" readonly></div>
+                        
+                        <div><input type="text" id="Estado" placeholder="Estado" readonly></div>
+                        
+                        <div><input type="text" id="frete" placeholder="Valor do frete" readonly></div>
+                        
+                        <button id="botao00" onclick="enderecoDoFrete()">CALCULAR O FRETE</button>
+                        <div class="ftcep"><img src="imagens/cep0007.png" ></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<section>
+        <footer>
+            <img src="imagens/loginho-removebg-preview.png" alt="">
+              <p> A Melhor Importadora do Brasil</p>
+              <p>Entre em contato pelo e-mail: TechImports@tech.com</p>
+              <nav>
+              </nav>
+          </footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="js_dolar.js"></script>
+</body>
+</html>

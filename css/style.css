@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(233, 233, 233)
+}
+
+.julio {
+    text-align: center; 
+}
+
+.bolinhas {
+    display: inline-block; 
+    margin: 30px;
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(214, 214, 214);
+    color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.prods {
+    display: inline-block; 
+    margin: 30px;
+    text-align: center; 
+}
+hr {
+    color:rgb(233, 233, 233) ;
+}
+.container-fluid  {
+   color:black ;
+   background-color: rgb(214, 214, 214);
+}
+.cardvi{
+    text-align: center; 
+}
+button {
+    border-radius: 7px;
+    border: none;
+    background-color: aliceblue;
+}
+.btn-btn-outline-success:hover{
+    
+    opacity: 0.5;
+    color: black;
+}
+.prods:hover{
+    
+    opacity: 0.9;
+    color: aliceblue;
+}
+.btn-btn-primary{
+    
+}
+.btn-btn-primary:hover{
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(99, 95, 95);
+    opacity: 0.7;
+    font-style: italic;
+   
+}
+.product-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Usar flexbox para alinhar card e formulário lado a lado */
+    flex-wrap: wrap; /* Permitir que eles quebrem para baixo em telas menores */
+    gap: 20px;
+    align-items: center;
+}
+
+.order-form {
+    max-width: 400px;
+    margin: 20px auto; /* Centralizar verticalmente */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#Rua{
+    margin-top:  10px;
+}
+
+#Bairro{
+    margin-top:  10px;
+}
+
+#Cidade{
+    margin-top:  10px;
+}
+
+#Estado{
+    margin-top:  10px;
+}
+
+#frete{
+    margin-top:  10px;
+}
+
+#botao00{
+    margin-top: 10px;
+}
+
+.menu {
+    text-align: center; /* Para centralizar os elementos horizontalmente */
+  }
+  
+  .menu p {
+    display: inline-block;
+    margin: 0 10px; /* Adicione margens horizontalmente para espaçamento entre os elementos */
+  }
+  .ftcep{
+    margin:10px;
+    width: 175px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    
+  }
+  
+
